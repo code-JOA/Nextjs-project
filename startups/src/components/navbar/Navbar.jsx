@@ -46,7 +46,7 @@ const Navbar = () => {
         ))}
         <button
           onClick={() => {
-            console.log(first);
+            console.log("logged Out");
           }}
         >
           Logout
