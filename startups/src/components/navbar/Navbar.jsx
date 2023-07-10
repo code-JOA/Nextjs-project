@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
 
@@ -42,6 +44,13 @@ const Navbar = () => {
             {link.title}
           </Link>
         ))}
+        <button
+          onClick={() => {
+            console.log(first);
+          }}
+        >
+          Logout
+        </button>
       </div>
     </div>
   );
