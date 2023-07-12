@@ -18,5 +18,6 @@
 
 .logout {
   padding: 5px;
-  border: ;
+  border: none;
+  background-color: #53c28b;
 }
