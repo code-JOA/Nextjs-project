@@ -17,3 +17,7 @@
   align-items: center;
   gap: 10px;
 }
+
+.icon {
+  opacity: 0.6;
+}
