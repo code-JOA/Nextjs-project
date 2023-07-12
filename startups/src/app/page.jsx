@@ -5,7 +5,7 @@ import Hero from "public/hero.png";
 export default function Home() {
   return (
     <div>
-      <div className={styles.text}>
+      <div className={styles.texts}>
         <h1>Better Design For SAAS products</h1>
         <p>Turning your dreams into reality using NoCode</p>
       </div>
