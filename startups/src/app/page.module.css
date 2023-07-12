@@ -32,4 +32,6 @@
 .button {
   padding: 20px;
   cursor: pointer;
+  background-color: #53c28b;
+  border: none;
 }
