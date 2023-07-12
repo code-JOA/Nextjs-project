@@ -9,7 +9,6 @@ const Footer = () => {
       <div className={styles.imgContainer}>
         <Image src="/1.png" fill={true} alt="josh.io" />
       </div>
-      <div></div>
     </div>
   );
 };
