@@ -12,7 +12,10 @@ const About = () => {
         alt=""
         className={styles.img}
       />
-      <div className={styles.imgText}></div>
+      <div className={styles.imgText}>
+        <h1>Digital Storytellers</h1>
+        <h1>Digital Storytellers</h1>
+      </div>
     </div>
     <div className={styles.textContainer}></div>
   </div>;
