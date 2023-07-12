@@ -10,3 +10,7 @@
   height: 15px;
   position: relative;
 } */
+
+.social {
+  display: flex;
+}
