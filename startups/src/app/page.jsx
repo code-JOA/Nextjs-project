@@ -5,7 +5,7 @@ import Hero from "public/hero.png";
 export default function Home() {
   return (
     <div>
-      <Image src="" alt="" />
+      <Image src="" alt="" className={styles.img} />
     </div>
   );
 }
