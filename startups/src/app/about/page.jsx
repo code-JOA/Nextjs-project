@@ -13,8 +13,10 @@ const About = () => {
         className={styles.img}
       />
       <div className={styles.imgText}>
-        <h1>Digital Storytellers</h1>
-        <h1>Hand Crafting Award Winning Experiences</h1>
+        <h1 className={styles.imgTitle}>Digital Storytellers</h1>
+        <h1 className={styles.imgDesc}>
+          Hand Crafting Award Winning Experiences
+        </h1>
       </div>
     </div>
     <div className={styles.textContainer}></div>
