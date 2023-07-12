@@ -5,7 +5,7 @@ const Footer = () => {
   return;
   <div className={styles.container}>josh.io All Rights Reserved</div>;
   <div>
-    <Image src="" alt="josh.io" />
+    <Image src="/1.png" width={15} height={15} alt="josh.io" />
   </div>;
 };
 
