@@ -9,7 +9,7 @@ export default function Home() {
         <h1>Better Design For SAAS products</h1>
         <p>Turning your dreams into reality using NoCode</p>
       </div>
-
+      <button>Our Works</button>
       <div className={styles.imgContainer}></div>
       <Image src={Hero} alt="" className={styles.img} />
     </div>
