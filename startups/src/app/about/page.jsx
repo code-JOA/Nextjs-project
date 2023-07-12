@@ -5,6 +5,7 @@ const About = () => {
   return;
   <div className={styles.container}>
     <div className={styles.imgContainer}></div>
+    <div className={styles.textContainer}></div>
   </div>;
 };
 
