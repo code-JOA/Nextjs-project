@@ -10,8 +10,13 @@
   font-size: 22px;
 }
 
-.links{
-    display: flex
-    align-items: center;
-    gap: 2px;
+.links {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.logout {
+  padding: 5px;
+  border: ;
 }
