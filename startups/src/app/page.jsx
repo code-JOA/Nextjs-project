@@ -11,8 +11,8 @@ export default function Home() {
           Turning your dreams into reality using NoCode. We bring together teams
           for your projects
         </p>
+        <button className={styles.button}>Our Works</button>
       </div>
-      <button className={styles.button}>Our Works</button>
       <div className={styles.item}>
         <Image src={Hero} alt="" className={styles.img} />
       </div>
