@@ -12,6 +12,7 @@ const About = () => {
         alt=""
         className={styles.img}
       />
+      <div className={styles.imgText}></div>
     </div>
     <div className={styles.textContainer}></div>
   </div>;
