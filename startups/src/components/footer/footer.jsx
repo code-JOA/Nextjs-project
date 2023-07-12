@@ -37,7 +37,7 @@ const Footer = () => {
           height={15}
           className={styles.icon}
           alt="josh.io"
-          etc
+          youtube
         />
       </div>
     </div>
