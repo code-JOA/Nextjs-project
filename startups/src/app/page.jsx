@@ -4,8 +4,10 @@ import Hero from "public/hero.png";
 
 export default function Home() {
   return (
-    <div>
-      <Image src={Hero} alt="" className={styles.img} />
+    <div className={styles.text}>
+      <div className={styles.imgContainer}>
+        <Image src={Hero} alt="" className={styles.img} />
+      </div>
     </div>
   );
 }
