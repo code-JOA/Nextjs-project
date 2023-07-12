@@ -7,7 +7,7 @@ const Footer = () => {
       <div>josh.io All Rights Reserved</div>
       <div className={styles.imgContainer}></div>
       <div>
-        <Image src="/1.png" width={15} height={15} alt="josh.io" />
+        <Image src="/1.png" fill={true} alt="josh.io" />
       </div>
     </div>
   );
