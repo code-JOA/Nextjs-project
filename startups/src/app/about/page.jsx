@@ -20,7 +20,15 @@ const About = () => {
       </div>
     </div>
     <div className={styles.textContainer}>
-      <div className={styles.item}></div>
+      <div className={styles.item}>
+        <h1>Who are we ?</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque sequi
+          fugit magni maxime, totam eligendi assumenda, architecto, accusamus
+          cum rerum ad consequuntur commodi magnam. In cupiditate harum dolore
+          alias est?
+        </p>
+      </div>
       <div className={styles.item}></div>
     </div>
   </div>;
