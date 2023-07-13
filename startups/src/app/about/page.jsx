@@ -20,7 +20,8 @@ const About = () => {
       </div>
     </div>
     <div className={styles.textContainer}>
-      <div className={styles.textContainer}></div>
+      <div className={styles.item}></div>
+      <div className={styles.item}></div>
     </div>
   </div>;
 };
