@@ -37,7 +37,7 @@ const About = () => {
       </div>
 
       <div className={styles.item}>
-        <h1 className={styles.title}>Who are we ?</h1>
+        <h1 className={styles.title}>What we do ?</h1>
       </div>
     </div>
   </div>;
