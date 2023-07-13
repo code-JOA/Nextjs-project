@@ -19,7 +19,9 @@ const About = () => {
         </h1>
       </div>
     </div>
-    <div className={styles.textContainer}></div>
+    <div className={styles.textContainer}>
+      <div className={styles.textContainer}></div>
+    </div>
   </div>;
 };
 
