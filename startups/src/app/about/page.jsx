@@ -22,7 +22,7 @@ const About = () => {
     <div className={styles.textContainer}>
       <div className={styles.item}>
         <h1 className={styles.title}>Who are we ?</h1>
-        <p>
+        <p className={styles.desc}>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque sequi
           fugit magni maxime, totam eligendi assumenda, architecto, accusamus
           cum rerum ad consequuntur commodi magnam. In cupiditate harum dolore
