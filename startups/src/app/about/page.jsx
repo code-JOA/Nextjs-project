@@ -27,6 +27,12 @@ const About = () => {
           fugit magni maxime, totam eligendi assumenda, architecto, accusamus
           cum rerum ad consequuntur commodi magnam. In cupiditate harum dolore
           alias est?
+          <br />
+          <br />
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque sequi
+          fugit magni maxime, totam eligendi assumenda, architecto, accusamus
+          cum rerum ad consequuntur commodi magnam. In cupiditate harum dolore
+          alias est?
         </p>
       </div>
       <div className={styles.item}></div>
