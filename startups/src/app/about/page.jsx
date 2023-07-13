@@ -35,7 +35,10 @@ const About = () => {
           alias est?
         </p>
       </div>
-      <div className={styles.item}></div>
+
+      <div className={styles.item}>
+        <h1 className={styles.title}>Who are we ?</h1>
+      </div>
     </div>
   </div>;
 };
