@@ -3,7 +3,7 @@ import styles from "./darkModeToggle.module.css";
 import { ThemeContext } from "@/context/ThemeContext";
 
 const DarkModeToggle = () => {
-  const { toggle } = useContext(ThemeContext);
+  const { toggle, mode } = useContext(ThemeContext);
   return (
     <div className={styles.container}>
       <div className={styles.icon}>🌙</div>
