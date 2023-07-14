@@ -19,10 +19,10 @@ const Blog = () => {
   // const data = await getData();
   return (
     <div className={styles.mainContainer}>
-      <Link href="" className={styles.container} key={item.id}>
+      <Link href="/testId" className={styles.container}>
         <div className={styles.imageContainer}>
           <Image
-            src={item.img}
+            src=""
             alt=""
             width={400}
             height={250}
