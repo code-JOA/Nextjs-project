@@ -1,12 +1,12 @@
-import React from 'react'
-import styles from './page.module.css'
+import React from "react";
+import styles from "./page.module.css";
 
 const layout = () => {
   return (
-    <div className={}>
-        <h1 className={}>Our World</h1>
+    <div>
+      <h1 className={styles.MainTitle}>Our World</h1>
     </div>
-  )
-}
+  );
+};
 
-export default layout
+export default layout;
