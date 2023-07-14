@@ -11,9 +11,11 @@ const Category = ({ params }) => {
         <div className={styles.content}>
           <h1>Title</h1>
           <p>Test</p>
-          <Button text="See More" url="" />
+          <Button text="See More" url="#" />
         </div>
-        <div className={styles.imgContent}></div>
+        <div className={styles.imgContainer}>
+          <Image />
+        </div>
       </div>
     </div>
   );
