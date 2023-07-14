@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./page.module.css";
 
-const layout = () => {
+const layout = ({ children }) => {
   return (
     <div>
-      <h1 className={styles.MainTitle}>Our World</h1>
+      <h1 className={styles.mainTitle}>Our World</h1>
     </div>
   );
 };
