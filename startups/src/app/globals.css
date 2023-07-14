@@ -15,7 +15,7 @@ a {
   color: inherit;
 }
 
-.light {
+/* .light {
   background-color: white;
   color: #111;
 }
@@ -23,7 +23,7 @@ a {
 .dark {
   background-color: #111;
   color: #bbb;
-}
+} */
 
 .container {
   max-width: 1366px;
