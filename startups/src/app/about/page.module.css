@@ -22,7 +22,7 @@
 }
 
 .textContainer {
-  dispaly: flex;
+  display: flex;
   gap: 100px;
 }
 
@@ -36,4 +36,6 @@
 
 .desc {
   font-size: 18px;
+  font-weight: 300;
+  text-align: justify;
 }
