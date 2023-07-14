@@ -22,7 +22,7 @@ const Blog = () => {
       <Link href="/testId" className={styles.container}>
         <div className={styles.imageContainer}>
           <Image
-            src=""
+            src="https://www.pexels.com/photo/light-city-street-dark-17388908/"
             alt=""
             width={400}
             height={250}
