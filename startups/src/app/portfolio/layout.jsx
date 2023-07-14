@@ -5,6 +5,7 @@ const layout = ({ children }) => {
   return (
     <div>
       <h1 className={styles.mainTitle}>Our World</h1>
+      {children}
     </div>
   );
 };
