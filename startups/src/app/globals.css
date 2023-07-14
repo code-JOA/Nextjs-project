@@ -28,6 +28,7 @@ a {
 }
 
 .theme {
+  transition: 1s all ease;
 }
 
 .container {
