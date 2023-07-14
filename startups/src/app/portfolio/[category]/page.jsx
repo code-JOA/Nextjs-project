@@ -1,6 +1,6 @@
 import React from "react";
 
-const Category = () => {
+const Category = ({ params }) => {
   return <div>Category</div>;
 };
 
