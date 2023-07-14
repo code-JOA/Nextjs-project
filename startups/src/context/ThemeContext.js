@@ -10,4 +10,6 @@ export const ThemeProvider = ({ children }) => {
   const toggle = () => {
     setMode((prev) => (prev === "dark" ? "light" : "dark"));
   };
+
+  return <ThemeContext.Provider></ThemeContext.Provider>;
 };
