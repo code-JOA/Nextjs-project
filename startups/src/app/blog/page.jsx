@@ -15,7 +15,7 @@ import Image from "next/image";
 //   return res.json();
 // }
 
-const Blog = async () => {
+const Blog = () => {
   // const data = await getData();
   return (
     <div className={styles.mainContainer}>
