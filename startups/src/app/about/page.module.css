@@ -29,4 +29,6 @@
 .item {
   flex: 1;
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
 }
