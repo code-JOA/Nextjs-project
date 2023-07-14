@@ -19,7 +19,7 @@ const Blog = () => {
   // const data = await getData();
   return (
     <div className={styles.mainContainer}>
-      <Link href="/testId" className={styles.container}>
+      <Link href="blog/testId" className={styles.container}>
         <div className={styles.imageContainer}>
           <Image
             src="https://www.pexels.com/photo/light-city-street-dark-17388908/"
