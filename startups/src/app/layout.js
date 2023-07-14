@@ -17,10 +17,11 @@ export default function RootLayout({ children }) {
         <div className="container">
           <Navbar />
           <ThemeProvider>
-          {children}
-          
+            {children}
+
+            <Footer />
+          </ThemeProvider>
         </div>
-        <Footer />
       </body>
     </html>
   );
