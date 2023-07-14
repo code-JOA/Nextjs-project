@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./page.module.css";
+import Button from "@/components/Button/Button";
 
 const Category = ({ params }) => {
   console.log(params);
@@ -10,7 +11,7 @@ const Category = ({ params }) => {
         <div className={styles.content}>
           <h1>Title</h1>
           <p>Test</p>
-          <Button />
+          <Button text="See More" url="" />
         </div>
         <div className={styles.imgContent}></div>
       </div>
