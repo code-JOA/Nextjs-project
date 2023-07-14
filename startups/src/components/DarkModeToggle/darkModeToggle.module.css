@@ -8,3 +8,11 @@
   padding: 2px;
   align-items: center;
 }
+
+.icon {
+  font-size: 12px;
+}
+
+.ball {
+  width: 15px;
+}
