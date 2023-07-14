@@ -7,8 +7,8 @@ const Portfolio = () => {
     <div className={styles.container}>
       <h1 className={styles.selectTitle}>Our Works</h1>;
       <div className={styles.items}>
-        <Link href="">
-          <span></span>
+        <Link href="/portfolio/illustrations">
+          <span>illustrations</span>
         </Link>
       </div>
     </div>
