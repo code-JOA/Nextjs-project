@@ -22,4 +22,11 @@
 }
 
 .textContainer {
+  dispaly: flex;
+  gap: 100px;
+}
+
+.item {
+  flex: 1;
+  margin-top: 50px;
 }
