@@ -1,20 +1,10 @@
-// import React from "react";
-// import styles from "./page.module.css";
-
-// const Contact = () => {
-//   return;
-//   <div className={styles.container}>Contact</div>;
-// };
-
-// export default Contact;
-
 import React from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
 import Button from "@/components/Button/Button";
 
 export const metadata = {
-  title: "Lama Dev Contact Information",
+  title: "CodeJOA Contact Information",
   description: "This is Contact Page",
 };
 
