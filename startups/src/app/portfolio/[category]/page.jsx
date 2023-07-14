@@ -4,8 +4,17 @@ import Button from "@/components/Button/Button";
 import Image from "next/image";
 import { items } from "./data.js";
 
+const getData = (cat) => {
+  const data = items[cat];
+
+  if (data) {
+    return data;
+  }
+
+  return notFound();
+};
+
 const Category = ({ params }) => {
-  console.log(params);
   return (
     <div className={styles.container}>
       <h1 className={styles.catTitle}>{params.Category}</h1>
