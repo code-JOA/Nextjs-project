@@ -5,39 +5,35 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <div className={styles.container}>
-      <div>josh.io All Rights Reserved</div>
+      <div>©2023 josh.io All rights reserved.</div>
       <div className={styles.social}>
         <Image
           src="/1.png"
           width={15}
           height={15}
           className={styles.icon}
-          alt="josh.io"
-          Facebook
+          alt="Lama Dev Facebook Account"
         />
         <Image
           src="/2.png"
           width={15}
           height={15}
           className={styles.icon}
-          alt="josh.io"
-          Instagram
+          alt="Lama Dev"
         />
         <Image
           src="/3.png"
           width={15}
           height={15}
           className={styles.icon}
-          alt="josh.io"
-          LinkendIn
+          alt="Lama Dev"
         />
         <Image
           src="/4.png"
           width={15}
           height={15}
           className={styles.icon}
-          alt="josh.io"
-          youtube
+          alt="Lama Dev"
         />
       </div>
     </div>
