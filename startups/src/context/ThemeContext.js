@@ -1,3 +1,5 @@
 "use client";
 
-export const ThemeContext 
+import { createContext } from "react";
+
+export const ThemeContext = createContext();
