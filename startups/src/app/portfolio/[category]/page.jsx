@@ -4,7 +4,7 @@ const Category = ({ params }) => {
   console.log(params);
   return (
     <div>
-      <h1>{params.Category}</h1>
+      <h1 className={styles.catTitle}>{params.Category}</h1>
     </div>
   );
 };
