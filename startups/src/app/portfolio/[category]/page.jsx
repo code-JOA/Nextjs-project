@@ -6,7 +6,10 @@ const Category = ({ params }) => {
   return (
     <div className={styles.container}>
       <h1 className={styles.catTitle}>{params.Category}</h1>
-      <div className={styles.item}></div>
+      <div className={styles.item}>
+        <div className={styles.content}></div>
+        <div className={styles.content}></div>
+      </div>
     </div>
   );
 };
