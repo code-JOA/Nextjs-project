@@ -1,8 +1,8 @@
-import React from "react";
+import { React, useContext } from "react";
 import styles from "./darkModeToggle.module.css";
 
 const DarkModeToggle = () => {
-  const mode = "dark";
+  const toggle = () =>;
   return (
     <div className={styles.container}>
       <div className={styles.icon}>🌙</div>
